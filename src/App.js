@@ -1,23 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import avatar from './luis-brasilia-2014.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={avatar} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+
+          <a
+              className="App-link"
+              href="https://github.com/luismendes070"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            GitHub  demos
+            <h1>Luis Mendes Machado</h1>
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );
