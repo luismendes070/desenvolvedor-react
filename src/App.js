@@ -24,9 +24,7 @@ function App() {
 
                     <h1>Objetivo</h1>
                     Desenvolvedor react remoto
-
-                    <h1>Resumo</h1>
-
+        
                     <h1>Formação</h1>
                     [jan 2011 dez 2013] IF Goiano Campus Urutai
                     <div></div>
@@ -42,10 +40,6 @@ function App() {
                     Minicursos
                 </p>
             </article>
-
-            <footer>
-                All Rights Reserved
-            </footer>
 
         </div>
     );
